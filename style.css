@@ -19,9 +19,11 @@ img {
 }
 article p strong {
   font-size: 23px;
+
 }
 .first{
-  color: #444;
+  color: #777;
+
 }
 .second {
   font-weight: bold;
