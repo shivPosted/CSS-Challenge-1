@@ -7,6 +7,7 @@
 h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 h2{
   text-align: center;
@@ -67,4 +68,52 @@ article {
     width: 820px;
   border: 5px solid black;
   margin: 50px auto;
+  position: relative;
+}
+.sale {
+  position: absolute;
+  background-color: red;
+  font-weight: bold;
+  padding: 3px 10px;
+  color: white;
+  top: -12px;
+  left: -34px;
+  letter-spacing: 2px;
+}
+
+span {
+  display: inline-block;
+  border: 0 solid black;
+  padding: 0 5px;
+  margin: 5px ;
+}
+
+.color{
+  margin-top: 20px;
+}
+.black {
+  background-color: black;
+  color: black;
+  margin-left: 0;
+}
+.blue {
+  background-color: blue;
+  color: blue;
+}
+.red {
+  background-color: red;
+  color: red;
+}
+.yellow {
+  background-color: yellow;
+  color: yellow;
+}
+.lime {
+  background-color: lime;
+  color: lime;
+}
+.brown {
+  background-color: brown;
+  color: brown;
+  margin-right: 0;
 }
