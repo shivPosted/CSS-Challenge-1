@@ -127,21 +127,21 @@ span {
   margin-right: 0;
 }
 
-.flex-container {
-  gap: 35px;
+/* .flex-container { */
+/*   gap: 35px; */
   /*   background-color:red; */
-  display: flex;
+/*   display: flex; */
   /*   justify-content: space-between; */
   /*   align-items: center; */
-}
+/* } */
 
-.flex-item {
+/* .flex-item { */
   /*background-color: red; */
   /*   flex: 0 1 auto; */
-  margin-top: 30px;
+/*   margin-top: 30px;
   align-items: stretch;
   flex: 1;
-}
+} */
 
 .price-tag {
   /*   background-color: red; */
@@ -149,4 +149,19 @@ span {
   display: flex;
   align-items: center;
   /*   justify-content: space-between; */
+}
+
+article {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 20px;
+}
+
+.flex-item {
+  margin-top: 20px;
+}
+
+h2,
+button {
+  grid-column: 1 / -1;
 }
